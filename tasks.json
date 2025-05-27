@@ -1,0 +1,20 @@
+//it must under folder .vscode
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Compile and Run with I/O",
+            "type": "shell",
+            "command": "cmd",
+            "args": [
+                "/c",
+                "g++ -std=c++17 -o demo.exe demo.cpp && demo.exe < input.txt > output.txt"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": []
+        }
+    ]
+}
