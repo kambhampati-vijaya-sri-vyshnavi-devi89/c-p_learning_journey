@@ -7,7 +7,7 @@ void pattern11(int n)
             start = 1;
         else
             start = 0;
-        for (int j = 0; j < i; j++)
+        for (int j = 0; j <= i; j++)
         {
             cout << start << " ";
             start = 1 - start;
@@ -30,8 +30,9 @@ int main()
 }
 
 /*
-0 
-1 0 
-0 1 0 
-1 0 1 0
+1 
+0 1 
+1 0 1 
+0 1 0 1 
+1 0 1 0 1
 */
