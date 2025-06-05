@@ -1,7 +1,7 @@
 
 #include <bits/stdc++.h>
 using namespace std;
-// hashing for large nos we use mapping instead of using array
+// hashing basic how it stored and fetched
 int main()
 {
     int n;
@@ -18,8 +18,12 @@ int main()
     {
         mpp[arr[i]]++;
     }
-
-    int q;
+    //iterate in the map
+    for (auto it : mpp)
+    {
+        cout << it.first << "->" << it.second << endl;
+    }
+    int q; // query
     cin >> q;
     while (q--)
     {
