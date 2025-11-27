@@ -239,22 +239,15 @@ The Admin Dashboard provides comprehensive system administration capabilities wi
 ### 📱 Admin User Experience
 #### Data Visualization
 - **Interactive Charts**: Clickable charts and graphs
+![graphs](static/data-2.png)
 - **Real-time Metrics**: Live updating performance indicators
-- **Custom Reports**: Create and save custom report views
-- **Export Options**: Multiple format exports (CSV, PDF, etc.)
-
-### 🔄 Automation & Scheduling
-#### Automated Tasks
-- **Scheduled Backups**: Automatic database backups
-- **Report Generation**: Scheduled report creation and distribution
-- **Cleanup Operations**: Automatic cleanup of old data
-
+![metrics](static/data-1.png)
 ## 👤 User Features
 
 TextMorph provides comprehensive text processing capabilities for general users with the following features:
 
 ### 📊 Dashboard & Readability Analysis
-![Dashboard](static/user-dashboard.png)
+![Dashboard](static/readability1.png)
 - **File Upload Support**: Upload TXT files for analysis
 - **Manual Text Input**: Paste text directly for instant analysis
 - **Comprehensive Readability Scoring**: 5 different readability metrics
@@ -267,23 +260,18 @@ TextMorph provides comprehensive text processing capabilities for general users 
 - **Gunning Fog Index**: Years of formal education needed
 - **SMOG Index**: Simple Measure of Gobbledygook
 - **Coleman-Liau Index**: Based on characters instead of syllables
-
+![metrics](static/data-1.png)
 ### 📝 Multi-level Summarization
-![Summarization](static/user-summarization.png)
+![Summarization](static/summary.png)
 - **Multiple Length Options**: Short, Medium, and Long summaries
 - **Model Selection**: Choose between BART, Pegasus, and FLAN-T5 models
 - **Side-by-Side Comparison**: View original text and summary simultaneously
 - **History Tracking**: Save and review previous summarization sessions
 - **Feedback System**: Rate summaries and provide comments
 
-#### Summary Customization
-- **Length Control**: Precise control over summary length
-- **Model-specific Tuning**: Optimized parameters for each AI model
-- **Quality Assessment**: Automatic quality indicators
-- **Export Options**: Save summaries for later use
 
 ### 🔄 Advanced Paraphrasing Engine
-![Paraphrasing](static/user-paraphrasing.png)
+![Paraphrasing](static/para.png)
 - **Complexity Levels**: Simple, Neutral, and Advanced paraphrasing
 - **Style Options**: Simplification, Formalization, and Creative rewriting
 - **Model Flexibility**: T5 and BART model support
@@ -297,21 +285,19 @@ TextMorph provides comprehensive text processing capabilities for general users 
 - **Grammar Enhancement**: Automatic grammar correction
 
 ### 🗃️ Dataset Augmentation & Custom Model Tuning
-![Dataset Management](static/user-dataset.png)
+![Dataset Management](static/dataset-1.png)
 - **Pre-loaded Datasets**: WikiAuto, Newsela, and ASSET datasets
 - **Model Training Interface**: Custom model fine-tuning
 - **Training Configuration**: Epochs, batch size, learning rate controls
 - **Performance Metrics**: Loss, accuracy, and BLEU score tracking
 - **Progress Monitoring**: Real-time training progress visualization
-
 #### Training Options
 - **Model Architectures**: T5-Small, BART-Base, FLAN-T5
 - **Hyperparameter Tuning**: Customizable training parameters
 - **Dataset Selection**: Choose from multiple text simplification datasets
-- **Quality Validation**: Automatic model performance evaluation
-
+![Dataset Management](static/dataset-2.png)
 ### 📜 Activity History
-![Activity History](static/user-history.png)
+![Activity History](static/history.png)
 - **Comprehensive Logging**: All user activities automatically recorded
 - **Search & Filter**: Find specific activities by type or date
 - **Input/Output Preview**: Review previous text processing results
@@ -321,11 +307,10 @@ TextMorph provides comprehensive text processing capabilities for general users 
 #### History Features
 - **Activity Types**: Summarization, Paraphrasing, Readability Analysis
 - **Date Range Filtering**: Filter by specific time periods
-- **Quick Access**: One-click reuse of previous inputs
-- **Export History**: Download activity logs
+![Activity History](static/history2.png)
 
 ### 💬 User Feedback System
-![Feedback](static/user-feedback.png)
+![Feedback](static/userfeedback.png)
 - **Feature-specific Feedback**: Rate individual platform features
 - **Star Rating System**: 1-5 star rating scale
 - **Detailed Comments**: Provide specific suggestions and feedback
@@ -336,27 +321,21 @@ TextMorph provides comprehensive text processing capabilities for general users 
 - **Summarization Quality**: Rate summary accuracy and usefulness
 - **Paraphrasing Effectiveness**: Evaluate rewriting quality
 - **Interface Usability**: Comment on user experience
-- **Feature Requests**: Suggest new features and improvements
+![Feedback](static/userfeedback2.png)
 
 ### 👤 User Profile Management
 ![User Profile](static/user-profile.png)
 - **Account Information**: View email, role, and membership details
 - **Security Settings**: Change password and security questions
-- **Activity Statistics**: Personal usage metrics and trends
 - **Login History**: Track account access times and dates
-
-#### Profile Features
 - **Password Management**: Secure password change with verification
 - **Security Question Setup**: Custom security questions for account recovery
-- **Personal Statistics**: View personal usage patterns
-- **Account Security**: Monitor login activity and sessions
 
 ### 🔐 Authentication & Security
 ![Authentication](static/user-auth.png)
 - **Secure Login**: JWT token-based authentication
 - **Role-based Access**: Different features for Admin vs General users
 - **Security Questions**: Additional account recovery protection
-- **Session Management**: Automatic logout for security
 - **Password Recovery**: Secure password reset process
 
 #### Security Features
@@ -365,47 +344,13 @@ TextMorph provides comprehensive text processing capabilities for general users 
 - **Account Protection**: Multiple security layers
 - **Access Control**: Feature restrictions based on user role
 
-### 📱 User Interface Features
-![User Interface](static/user-interface.png)
-- **Responsive Design**: Works on desktop, tablet, and mobile
-- **Intuitive Navigation**: Easy-to-use sidebar navigation
-- **Dark/Light Theme**: Customizable interface appearance
-- **Real-time Updates**: Live progress indicators
-- **Accessibility Features**: Screen reader friendly design
-
-#### UX Features
-- **Quick Actions**: One-click access to frequent tasks
-- **Progress Indicators**: Visual feedback for long operations
-- **Error Handling**: Clear error messages and solutions
-- **Help Tooltips**: Contextual help and guidance
-
 ### 🔄 Real-time Processing
-![Real-time Processing](static/user-realtime.png)
+
 - **Instant Results**: Most operations complete in seconds
 - **Progress Tracking**: Live progress bars for model loading
-- **Background Processing**: Non-blocking user interface
 - **Queue Management**: Efficient task processing
 - **Performance Optimization**: Optimized for speed and reliability
 
-#### Performance Features
-- **Model Caching**: Pre-loaded models for faster response
-- **Memory Management**: Efficient resource usage
-- **Error Recovery**: Automatic retry on failures
-- **Speed Optimization**: Optimized inference pipelines
-
-### 📈 Personal Analytics
-![Personal Analytics](static/user-analytics.png)
-- **Usage Statistics**: Track personal activity frequency
-- **Feature Preferences**: See most-used features
-- **Time Analysis**: Usage patterns by time of day
-- **Productivity Metrics**: Text processing volume tracking
-- **Improvement Tracking**: Monitor skill development over time
-
-#### Analytics Features
-- **Visual Reports**: Charts and graphs of personal usage
-- **Trend Analysis**: Usage patterns over time
-- **Comparison Tools**: Compare with platform averages
-- **Goal Setting**: Personal improvement targets
 ### 📚 Datasets Information
 
 | Dataset | Size | Content Type | Source | Key Features | Use Cases |
@@ -487,52 +432,13 @@ TextMorph provides comprehensive text processing capabilities for general users 
 - **Best For**: Custom length requirements, specific style requests
 ## 👥 Team
 
-| Team Member | Role | Contributions | Contact |
-|-------------|------|---------------|---------|
-| **Alex Chen** | Lead AI Engineer & Project Manager | - Model architecture design & implementation<br>- HuggingFace integration<br>- Performance optimization<br>- Project coordination & deployment | [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://linkedin.com/in/alexchen) [![GitHub](https://img.shields.io/badge/GitHub-Follow-black)](https://github.com/alexchen) |
-| **Sarah Rodriguez** | Full Stack Developer & UI/UX Designer | - Streamlit frontend development<br>- User interface design<br>- Database architecture<br>- Authentication system | [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://linkedin.com/in/sarahrodriguez) [![GitHub](https://img.shields.io/badge/GitHub-Follow-black)](https://github.com/sarahrodriguez) |
-| **Marcus Johnson** | Backend & DevOps Engineer | - Docker containerization<br>- API development<br>- System security<br>- Database optimization<br>- CI/CD pipeline | [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://linkedin.com/in/marcusjohnson) [![GitHub](https://img.shields.io/badge/GitHub-Follow-black)](https://github.com/marcusjohnson) |
-| **Priya Sharma** | NLP Research & Data Scientist | - Model fine-tuning & evaluation<br>- Dataset preprocessing<br>- Readability algorithms<br>- Performance metrics analysis | [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://linkedin.com/in/priyasharma) [![GitHub](https://img.shields.io/badge/GitHub-Follow-black)](https://github.com/priyasharma) |
-| **David Kim** | QA Engineer & Technical Writer | - Testing & quality assurance<br>- Documentation<br>- User feedback analysis<br>- Bug tracking & resolution | [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://linkedin.com/in/davidkim) [![GitHub](https://img.shields.io/badge/GitHub-Follow-black)](https://github.com/davidkim) |
-
-### 🏆 Team Achievements
-
-#### 🎯 Project Milestones
-- **✅ Phase 1**: Core AI models integration (BART, T5, Pegasus)
-- **✅ Phase 2**: User authentication & role-based access system
-- **✅ Phase 3**: Comprehensive admin dashboard implementation
-- **✅ Phase 4**: Docker deployment & production readiness
-- **✅ Phase 5**: Performance optimization & scalability improvements
-
-#### 📊 Key Contributions
-- **Alex**: Reduced model inference time by 40% through optimization
-- **Sarah**: Designed intuitive UI with 95% user satisfaction rate
-- **Marcus**: Achieved 99.8% system uptime with robust DevOps
-- **Priya**: Improved summarization quality by 35% through fine-tuning
-- **David**: Maintained 98% code coverage with comprehensive testing
-
-#### 🔧 Technical Expertise
-| Team Member | Core Technologies | Specializations |
-|-------------|-------------------|----------------|
-| **Alex** | Python, PyTorch, Transformers, HuggingFace | Model optimization, ML pipelines |
-| **Sarah** | Streamlit, React, SQL, JWT | Frontend development, UX design |
-| **Marcus** | Docker, AWS, SQLite, Security | DevOps, Cloud infrastructure |
-| **Priya** | NLP, NLTK, Data analysis, Evaluation | Research, Model fine-tuning |
-| **David** | Testing, Documentation, QA processes | Quality assurance, Technical writing |
-
-### 🤝 Collaboration & Development
-
-#### Agile Methodology
-- **Sprint Planning**: 2-week development cycles
-- **Daily Standups**: Team coordination and progress tracking
-- **Code Reviews**: Peer-reviewed pull requests
-- **Continuous Integration**: Automated testing and deployment
-
-#### Development Tools
-- **Version Control**: Git & GitHub
-- **Project Management**: Jira/Notion
-- **Communication**: Slack, Discord
-- **Documentation**: Markdown, Confluence
+| Team Member |  Contributions |
+|-------------|------|
+| **Jey Harshini** | - | 
+| **Vijaya Sri Vyshnavi Devi** | - |
+| **Likitha Lakamraju** | - |
+| **Kushagra Hada** | - |
+| **Manasa Mateti** | - |
 
 ### 🌟 Acknowledgments
 
