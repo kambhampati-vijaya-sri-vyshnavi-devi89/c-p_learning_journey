@@ -149,15 +149,6 @@ To expose your local deployment to the internet:
 3. Open Command Prompt in the ngrok directory
 4. Run: `ngrok config add-authtoken YOUR_AUTH_TOKEN`
 
-**On Linux/Mac:**
-```bash
-# Install ngrok
-curl -s https://ngrok-agent.s3.amazonaws.com/ngrok.asc | sudo tee /etc/apt/trusted.gpg.d/ngrok.asc >/dev/null
-echo "deb https://ngrok-agent.s3.amazonaws.com buster main" | sudo tee /etc/apt/sources.list.d/ngrok.list
-sudo apt update && sudo apt install ngrok
-
-# Add your authtoken
-ngrok config add-authtoken YOUR_AUTH_TOKEN
 
 ## ⚙ Admin Controls
 
