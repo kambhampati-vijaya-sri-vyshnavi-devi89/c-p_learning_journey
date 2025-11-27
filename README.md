@@ -3,8 +3,7 @@
 **AI-Powered Content Simplification, Summarization & Paraphrasing Suite**
 
 Transforming complex content into clear, concise, and accessible communication.
-
-![TextMorph Banner](https://via.placeholder.com/1200x400/667eea/ffffff?text=TextMorph+AI+Platform)
+![TextMorph Banner](static/textmorph.png)
 
 ## 🔗 Quick Links
 
@@ -13,7 +12,6 @@ Transforming complex content into clear, concise, and accessible communication.
 | 📽️ Demo Video | https://drive.google.com/file/d/1W88llT4h0k3I8ujctPHxQ6lYo_KVcDOI/view?usp=sharing |
 | 🧩 Source Code | This Repository |
 | 🐳 Docker Support | Yes |
-| 🚀 Live Demo | [Deployed Link](#) |
 | 🧠 AI Models | Pegasus · BART · FLAN-T5 · T5 |
 
 ## 🎯 About the Project
@@ -51,7 +49,7 @@ TextMorph addresses these challenges by providing intelligent text transformatio
 - **Admin Controls**: Comprehensive system administration
 
 ## 🏗 Architecture
-
+![Architecture](static/architecture.png)
 ## 🛠 Tech Stack
 
 ### Frontend
@@ -74,8 +72,6 @@ TextMorph addresses these challenges by providing intelligent text transformatio
 
 ### Deployment
 - **Docker** - Containerization
-- **Docker Compose** - Multi-container orchestration
-
 ## 🤖 Models Used
 
 | Model | Company | Parameters | Purpose | Key Features |
@@ -160,27 +156,27 @@ The Admin Dashboard provides comprehensive system administration capabilities wi
 - **Role Management**: Change user roles between Admin and General User
 - **User Deletion**: Remove users from the system (with safety checks)
 - **Admin Limit Enforcement**: Maximum 2 admin users allowed for security
-![User Management](static/admin-user-management.png)
+![User Management](static/usermanagement.png)
 ### 📊 System Analytics & Metrics
 #### Real-time Dashboard
 - **User Statistics**: Total users, active users (30 days), new users this month
 - **Activity Metrics**: Total activities, activity types distribution
 - **Feedback Overview**: Total feedback submissions, average ratings
 - **Role Distribution**: Admin vs General User counts
-
+![User Growth](static/system-analytics-1.png)
 #### Performance Monitoring
 - **Database Statistics**: Size estimates and performance metrics
 - **System Uptime**: Availability tracking
 - **Response Times**: Average processing times
 - **Session Management**: Active session tracking
-
+![Database statistics](static/system-analytics-2.png)
 ### 📈 Activity Monitoring
 #### Activity Tracking
 - **Comprehensive Logs**: All user activities with timestamps
 - **Activity Types**: Summarization, Paraphrasing, Model Training, etc.
 - **Input/Output Preview**: View original inputs and AI-generated outputs
 - **Model Usage Tracking**: Which models are being used by which users
-
+![Activity Tracking](static/activity-monitoring1.png)
 #### Advanced Filtering
 - **Activity Type Filter**: Filter by specific activity types
 - **User Filter**: View activities by specific users
@@ -191,14 +187,14 @@ The Admin Dashboard provides comprehensive system administration capabilities wi
 - **Top Active Users**: Users with highest activity counts
 - **Activity Distribution**: Pie charts showing activity type distribution
 - **Trend Analysis**: Usage patterns over time
-
+![Activity log](static/activity-monitoring.png)
 ### 💬 Feedback Analytics
 #### Feedback Management
 - **All Feedback View**: Complete list of user feedback submissions
 - **Rating Analysis**: Average ratings per feature
 - **Comment Review**: Read user comments and suggestions
 - **Feature-specific Feedback**: Filter feedback by platform features
-
+![Feedback](static/feedback-1.png)
 #### Sentiment Analysis
 - **Word Cloud Generation**: Visual representation of common feedback themes
 - **Rating Trends**: Track satisfaction scores over time
@@ -208,77 +204,39 @@ The Admin Dashboard provides comprehensive system administration capabilities wi
 - **Search & Filter**: Find specific feedback by content or user
 - **Export Capabilities**: Download feedback data for analysis
 - **Response Tracking**: Monitor feedback resolution status
-
+![feedback](static/feedback-2.png)
 ### 🔍 Global Search
 - **Cross-platform Search**: Search across users, activities, and feedback simultaneously
 - **Real-time Results**: Instant search results with categorization
 - **Preview Functionality**: Quick preview of search results
 - **Comprehensive Coverage**: Search all database tables and text fields
-
+![global search](static/global-search.png)
 ### ⚙ System Configuration
 #### Application Settings
 - **User Limits**: Configure maximum number of users allowed
 - **Session Management**: Set session timeout durations
 - **Default Roles**: Configure default user role for new registrations
 - **Theme Settings**: Light/Dark/Auto theme selection
-
+![admin setting ](static/admin-setting1.png)
 #### System Maintenance
 - **Database Backup**: Initiate manual database backups
 - **Log Management**: Clear old activity logs with retention settings
 - **Report Generation**: Create system usage reports
 - **Analytics Reset**: Reset analytics data (with confirmation)
-
-#### Security Settings
-- **Admin Controls**: Manage admin privileges and access
-- **Security Policies**: Configure password policies and security requirements
-- **Access Logs**: Review system access and authentication events
-
-### 📋 Administrative Features
-#### Dashboard Features
-- **Multi-tab Interface**: Organized navigation between different admin sections
-- **Real-time Updates**: Live data updates without page refresh
-- **Export Capabilities**: Download reports and data in various formats
-- **Responsive Design**: Works on desktop and mobile devices
-
-#### User Support Tools
-- **User Activity History**: View complete history for any user
-- **Troubleshooting Tools**: Diagnostic tools for user issues
-- **Bulk Operations**: Perform actions on multiple users
-- **Notification System**: System-wide announcements and alerts
-
+![admin setting](static/admin-setting2.png)
 ### 🔒 Security & Access Control
 #### Authentication Management
 - **JWT Token Validation**: Secure token-based authentication
 - **Role-based Access**: Granular permissions based on user roles
-- **Session Security**: Automatic session expiration and renewal
 - **Security Question Management**: Admin oversight of security settings
-
+![admin overview](static/overview.png)
 #### Audit Trail
 - **Complete Activity Logging**: Every admin action is logged
 - **Change Tracking**: Track all modifications to user accounts and settings
 - **Access Monitoring**: Monitor who accesses admin features
 - **Security Events**: Log security-related events and anomalies
 
-### 🚀 System Administration
-#### Performance Optimization
-- **Cache Management**: Clear and manage system caches
-- **Database Optimization**: Performance tuning and maintenance
-- **Resource Monitoring**: Track system resource usage
-- **Load Balancing**: Monitor and manage system load
-
-#### Deployment Management
-- **Environment Configuration**: Manage different deployment environments
-- **Version Control**: Track system versions and updates
-- **Backup Strategies**: Configure automated backup schedules
-- **Disaster Recovery**: Emergency recovery procedures
-
 ### 📱 Admin User Experience
-#### Interface Features
-- **Intuitive Navigation**: Easy-to-use tab-based interface
-- **Quick Actions**: One-click access to common admin tasks
-- **Search Functionality**: Find anything quickly with global search
-- **Mobile Responsive**: Admin dashboard works on all devices
-
 #### Data Visualization
 - **Interactive Charts**: Clickable charts and graphs
 - **Real-time Metrics**: Live updating performance indicators
