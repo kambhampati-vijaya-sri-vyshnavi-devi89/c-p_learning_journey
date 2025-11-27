@@ -86,3 +86,44 @@ graph TB
         G --> K[Pegasus Summarization]
         G --> L[FLAN-T5 Processing]
     end
+## 🛠 Tech Stack
+
+### Frontend
+- **Streamlit** - Web application framework
+- **Plotly** - Interactive visualizations
+- **Matplotlib** - Static visualizations
+- **WordCloud** - Text visualization
+
+### Backend
+- **Python 3.8+** - Core programming language
+- **SQLite** - Database management
+- **JWT** - Authentication tokens
+- **bcrypt** - Password hashing
+
+### AI/ML
+- **Transformers** - HuggingFace model integration
+- **PyTorch** - Deep learning framework
+- **NLTK** - Natural language processing
+- **SentencePiece** - Tokenization
+
+### Deployment
+- **Docker** - Containerization
+- **Docker Compose** - Multi-container orchestration
+
+## 🤖 Models Used
+
+| Model | Company | Parameters | Purpose | Key Features |
+|-------|---------|------------|---------|--------------|
+| **BART** (facebook/bart-large-cnn) | Meta AI | 400M | Summarization | Denoising autoencoder, excellent for abstractive summarization |
+| **T5** (t5-small) | Google | 140M | Paraphrasing | Text-to-text framework, versatile for multiple tasks |
+| **Pegasus** (google/pegasus-cnn_dailymail) | Google | 568M | Summarization | Pre-training with gap sentences, great for news summarization |
+| **FLAN-T5** (google/flan-t5-base) | Google | 250M | Summarization | Instruction-tuned version, better following user instructions |
+
+### Model Performance Characteristics
+
+- **BART**: Best for balanced summarization with good coherence
+- **T5**: Excellent for paraphrasing and text transformation tasks
+- **Pegasus**: Superior for extractive-style summarization
+- **FLAN-T5**: Better at following specific user instructions
+
+## 📁 Project Structure
